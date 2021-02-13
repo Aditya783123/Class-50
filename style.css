@@ -1,0 +1,31 @@
+
+/*used to style anything that has h1 tag*/
+h1{
+    color:ghostwhite;
+}
+
+/*To style a div you have to use a dot before the name*/
+.header{
+    background-color:blanchedalmond;
+    /*Flex display is used to arrange divs horizontally or vertically*/
+    display:flex;
+
+    /*to keep as much space as possible between sub divs*/
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+
+    /*To keep even space between all sub divs*/
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+
+.footer{
+    display:flex;
+
+    /*Used to keep divs exactly at the end*/
+    justify-content: flex-end
+}
